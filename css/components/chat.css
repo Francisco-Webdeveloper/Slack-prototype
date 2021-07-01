@@ -21,6 +21,7 @@
 }
 @media (max-width: 540px) {
   .chat {
-    width: 300px;
+    width: 260px;
   }
 }
+

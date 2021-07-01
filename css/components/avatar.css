@@ -4,3 +4,9 @@ img {
   height: 40px;
   border-radius: 4px;
 }
+
+@media (max-width: 540px) {
+  img {
+    display: none;
+  }
+}
