@@ -1,0 +1,28 @@
+/*Messages*/
+
+.chat-header h1 {
+  font-size: 24px;
+}
+
+.chat-header h1 .fab {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow: scroll;
+}
+
+.message-description {
+  margin-left: 16px;
+}
+
+.message-description .nickname {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.message-description span {
+  color: #EC5E9F;
+}

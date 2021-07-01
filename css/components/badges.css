@@ -1,0 +1,16 @@
+/*Badges*/
+.online-badge, .offline-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.online-badge {
+  background-color: #1FE5BD;
+}
+
+.offline-badge {
+  background-color: rgba(255,255,255,0.6);
+}

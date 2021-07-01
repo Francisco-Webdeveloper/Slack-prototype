@@ -1,0 +1,26 @@
+/*Chat*/
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  margin: 16px 16px 0 16px;
+
+}
+
+@media (max-width: 960px) {
+  .chat {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .chat {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .chat {
+    width: 300px;
+  }
+}

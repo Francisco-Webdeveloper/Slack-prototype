@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Slack copycat markup -->
+  <div class="slack-container d-flex">
+
+    <div class="sidebar-left">
+      <h2 class="sidebar-left-top">LW</h2>
+      <h2 class="sidebar-left-middle">SL</h2>
+      <i class="plus fas fa-plus"></i>
+    </div>
+
+    <div class="sidebar-right">
+      <div class="profile">
+        <h2>Le Wagon</h2>
+        <div class="person d-flex align-items-center">
+          <div class="online-badge"></div>
+          <span>arthur-littm</span>
+        </div>
+      </div>
+      <div class="channels">
+        <div class="channels-header d-flex justify-content-between align-items-center">
+          <h3>Channels</h3>
+          <i class="plus fas fa-plus"></i>
+        </div>
+        <p class="channel"><i class="fab fa-slack-hash"></i>general</p>
+        <p class="channel"><i class="fab fa-slack-hash"></i>help</p>
+        <p class="channel design"><i class="fab fa-slack-hash"></i>design</p>
+        <p class="channel"><i class="fas fa-lock"></i>friday-drinks</p>
+        <p class="channel"><i class="fas fa-lock"></i>climbing</p>
+      </div>
+      <div class="messages">
+        <div class="messages-header d-flex justify-content-between align-items-center">
+          <h3>Direct Messages</h3>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="person d-flex align-items-center">
+          <div class="online-badge"></div>
+          <span>Matz</span>
+        </div>
+        <div class="person d-flex align-items-center">
+          <div class="online-badge"></div>
+          <span>Aturing</span>
+        </div>
+        <div class="person d-flex align-items-center">
+          <div class="offline-badge"></div>
+          <span>SteveWozniak</span>
+        </div>
+        <div class="person d-flex align-items-center">
+          <div class="offline-badge"></div>
+          <span>Zuckerberg</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat">
+      <div class="chat-header border-bottom">
+        <h1><i class="fab fa-slack-hash"></i>design</h1>
+      </div>
+
+      <div class="messages">
+        <div class="message d-flex">
+          <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm" alt="">
+          <div class="message-description">
+            <p class="nickname">arthur-littm</p>
+            <p>Hey everyone 👋 We’ve just launched a new Le Wagon <strong>UI Kit</strong> 🚀 👉 <a href="https://uikit.lewagon.com/">https://uikit.lewagon.com/</a></p>
+          </div>
+        </div>
+
+        <div class="message d-flex">
+          <img src="https://kitt.lewagon.com/placeholder/users/cveneziani" alt="">
+          <div class="message-description">
+            <p class="nickname">cveneziani</p>
+            <p>yay! 🤘</p>
+          </div>
+        </div>
+
+        <div class="message d-flex">
+          <img src="https://kitt.lewagon.com/placeholder/users/pdunleav" alt="">
+          <div class="message-description">
+            <p class="nickname">pdunleav</p>
+            <p>That looks great, why don't you add a <span>.card</span> like on dribbble with a cool hover effect? 😎</p>
+          </div>
+        </div>
+
+        <div class="message d-flex">
+          <img src="https://kitt.lewagon.com/placeholder/users/barangerbenjamin" alt="">
+          <div class="message-description">
+            <p class="nickname">barangerbenjamin</p>
+            <p>Does it work on Linux? 🤓</p>
+          </div>
+        </div>
+
+        <div class="message d-flex">
+          <img src="https://kitt.lewagon.com/placeholder/users/papillard" alt="">
+          <div class="message-description">
+            <p class="nickname">papillard</p>
+            <p>Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:</p>
+            <p>- UX data (GA, Hotjar) and how to use it to re-think your sitemap</p>
+            <p>- Advanced UX workflow (Sketch > Invision > Abstract)</p>
+            <p>👉<a href="https://kitt.lewagon.com/knowledge/tutorials/ux_advanced">https://kitt.lewagon.com/knowledge/tutorials/ux_advanced</a></p>
+            <p>Hope you’ll enjoy 📺 !</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="Type your message..." class="form-control">
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
